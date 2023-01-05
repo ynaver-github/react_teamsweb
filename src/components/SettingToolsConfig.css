@@ -1,0 +1,42 @@
+
+.toolsconfig-items-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 320px;
+    width: 100%;
+}
+
+.toolsconfig-items-box {
+    background-color: rgb(238, 9, 135);
+    cursor: pointer;
+    width: 88%;
+    padding: 7px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 20px;
+}  
+
+.toolsconfig-items-check {
+    background-color: #ff046d;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .toolsconfig-items-check span{
+  
+  }

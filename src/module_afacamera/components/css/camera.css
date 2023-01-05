@@ -1,0 +1,14 @@
+body {
+  /* background-color: black; */
+}
+@keyframes fadein {
+  from {
+    scale: 0;
+    opacity: 0;
+  }
+
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,137 @@
+.setting-container {
+  /* ui-tunning  */
+  /* background-color: rgba(80, 80, 80, 1); */
+  background-color: white;
+  /* background-color: red; */
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  /* ui-tunning point */
+  /* max-width: 320px; */
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.setting-toast-msg {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  padding: 11px;
+  min-width: 200px;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 20px;
+}
+.setting-title {
+  /* background-color: red; */
+  background-color: rgb(193, 180, 224);
+  width: 100%;
+  padding: 7px 20px;
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-left: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  /* text-align: center; */
+  color: black;
+
+
+}
+
+.setting-context {
+
+}
+
+.setting-items {
+  height: 20px;
+  width: 200px;
+  right: 20px;
+  bottom: 0px;
+  font-size: 18px;
+  color: rgb(8, 8, 150);
+}
+
+.setting-items-display {
+  /* margin-bottom: 20px; */
+  /* background-color: rgb(202, 195, 195); */
+  background-color: white;
+  width: 100%;
+  max-width: 320px;
+  /* padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px; */
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* color: rgba(0, 0, 0, 0.8); */
+  color: rgba(80, 80, 80, 1);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.9); */
+}
+
+
+
+.setting-items-img {
+  display: inline-block;
+  float : right;
+  padding-right: 20px;
+  right: 10px;
+  font-size: 18px;
+  color: rgb(230, 18, 71);
+}
+
+
+.setting-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  max-width: 320px;
+  width: 100%;
+}
+
+.setting-items-box {
+  background-color: rgb(105, 49, 236);
+  cursor: pointer;
+  width: 100%;
+  padding: 7px 20px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+
+.setting-items-check {
+  background-color: #3204ff;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  padding-top: 2px;
+  padding-left: 2px;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.setting-items-check span{
+
+}

@@ -1,0 +1,398 @@
+
+.formInput {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    background-color: rgb(73, 9, 194);
+    color: black;
+}
+
+.formBtn {
+    cursor: pointer;
+    width: 100%;
+    padding: 7px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    background-color: #04aaff;
+    /* background-color: #230857; */
+}
+
+.cancelBtn {
+    cursor: pointer;
+    background-color: tomato;
+}
+
+.nweet-edit-form {
+    /* background-color: tomato; */
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.edit-input-title {
+    flex-grow: 1;
+    height: 40px;
+    width: 100%;
+    padding: 0px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #04aaff;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: text;
+}
+
+.edit-input-title::placeholder{
+    color: white;
+    opacity: 0.9;
+}
+
+.edit-input-context {
+    flex-grow: 1;
+    height: 180px;
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+    border: 2px solid #04aaff;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.nweet-edit-form-update {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 7px 10px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    background-color: #04aaff;
+    cursor: pointer;
+
+}
+
+.nweet-edit-form-cancelBtn{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    max-width: 320px;
+    padding: 7px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    background-color: tomato;
+}
+
+.nweet {
+    margin-bottom: 20px;
+    background-color: white;
+    /* background-color: red; */
+    width: 100%;
+    /* width: 400px; */
+    /* max-width: 320px; */
+    /* padding: 20px; */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* color: rgba(0, 0, 0, 0.8); */
+    color: rgba(80, 80, 80, 1);
+}
+
+.nweet-edit {
+    outline: none;
+    /* margin-top: -20px;
+    margin-bottom: -50px; */
+}
+
+.nweet-noedit:focus {
+    outline: none;
+}
+
+.nweet-title {
+    background-color: rgb(208, 213, 243);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.nweet-h4 {
+    font-size: 14px;
+}
+
+.nweet-context {
+    padding-top: 2px;
+    font-size: 14px;
+}
+
+.nweet-img {
+    /* right: -10px; */
+    /* top: 20px; */
+    /* position: absolute; */
+    /* border-radius: 50%; */
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.nweet-user-img{
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    font-weight: 500;
+    font-size: 22px;
+    color: blue;
+}
+
+.nweet-user-name {
+    position: absolute;
+    left: 25px;
+    top: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    color: blue;
+}
+
+.nweet-comment-user-img{
+    position: absolute;
+    left: -5px;
+    top: -10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: blue;
+}
+
+.nweet-editForm__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 10px; */
+}
+
+.nweet-editForm__label {
+    /* background-color: red; */
+    margin-top: 0px;
+    text-align: center;
+    color: #2185D0 ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nweet-editForm__label span {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.nweet-editForm__attachment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+.nweet-editForm__attachment img {
+    /* background-color: red; */
+    height: 80px;
+    width: 80px;
+    /* width: 100%; */
+    max-width: 320px;
+    /* border-radius: 40px; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nweet-editForm-clear {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #2185D0 ;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .nweet-editForm-clear span {
+    margin-right: 10px;
+    font-size: 12px;
+  }
+
+.comment-profile-icon-container-img {
+    height: 25px;
+    width: 25px;
+    /* width: 100%; */
+    max-width: 320px;
+    border-radius: 40px;
+    justify-content: center;
+  }
+
+.nweet-comment-user-name {
+    position: absolute;
+    left: 25px;
+    top: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    color: blue;
+}
+
+
+.nweet-top-actions {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 14px;
+    color: rgb(45, 45, 48);
+}
+
+.nweet-top-actions span {
+    cursor: pointer;
+}
+
+.nweet-top-actions span:first-child {
+    margin-right: 10px;
+}
+
+.nweet-bottom-likes {
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    font-size: 18px;
+    color: rgb(8, 8, 150);
+}
+
+.nweet-bottom-likes:focus {
+    outline:none;
+}
+
+.nweet-bottom-likes span {
+    cursor: pointer;
+}
+
+.nweet-bottom-likes span:focus {
+    outline:none;
+}
+
+.nweet-bottom-likes-space {
+    margin-left: 20px;
+}
+
+
+.nweet-bottom-like-color {
+    /* font-size: 16px;     */
+    color: rgb(238, 70, 84);
+}
+
+.nweet-bottom-add {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    font-size: 18px;
+    color: rgb(8, 8, 150);
+}
+
+.nweet-bottom-add span {
+    cursor: pointer;
+}
+
+.comment-area {
+    background-color: rgb(202, 195, 195);;
+    /* background-color: red; */
+    margin-top: -10px;
+    margin-bottom: 20px;
+    width: 100%;
+    /* ui-tunning point */
+    /* max-width: 280px; */
+    max-width: 320px;
+    margin-left: 40px;
+
+    padding-top: 10px;
+    /* ui-tunning point */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* color: rgba(0, 0, 0, 0.8); */
+    color: rgb(63, 15, 196);
+}
+
+.comment-edit {
+    margin-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    max-width: 320px;
+    /* padding: 20px; */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* color: rgba(0, 0, 0, 0.8); */
+    color: rgba(80, 80, 80, 1);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.9); */
+}
+
+.comment-edit-input {
+
+}
+
+.comment-edit-bottom-add {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    font-size: 18px;
+    color: rgb(8, 8, 150);
+}
+
+.comment-edit-bottom-add span {
+    cursor: pointer;
+}
+
+.comment-edit-bottom-line {
+    margin-top: -5px;
+/* ui-tunning point */
+    /* border-top: 2px solid rgba(255, 255, 255, 0.9); */
+    border-top: 2px solid rgba(124, 244, 248, 0.9);
+    margin-bottom: 5px;
+}
+
+
+.comment-display {
+    /* margin-bottom: 20px; */
+    background-color: rgb(202, 195, 195);;
+    /* background-color: white; */
+    width: 100%;
+    max-width: 320px;
+    /* padding-top: 20px; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    padding-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* color: rgba(0, 0, 0, 0.8); */
+    color: rgba(80, 80, 80, 1);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.9); */
+}
+

@@ -1,0 +1,196 @@
+.profile-container {
+  /* background-color: red; */
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  padding-bottom: 30px;
+}
+
+.profileformInput {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.photoURLForm__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-top: 10px; */
+}
+
+.photoURLForm__attachment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 10px; */
+}
+
+.photoURLForm__attachment img {
+  height: 80px;
+  width: 80px;
+  /* width: 100%; */
+  max-width: 320px;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.photoForm__change {
+  color: #04aaff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.photoForm__change span {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.photoInput__label {
+  margin-top: 10px;
+  text-align: center;
+  color: #04aaff;
+  cursor: pointer;
+}
+
+.photoInput__label span {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.photoForm__attachment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.photoForm__attachment img {
+  height: 80px;
+  width: 80px;
+  /* width: 100%; */
+  max-width: 320px;
+  border-radius: 40px;
+  justify-content: center;
+}
+
+.photoForm-clear {
+  color: #04aaff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.photoForm-clear span {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.profile-btn-form {
+  cursor: pointer;
+  width: 100%;
+  padding: 7px 20px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  background-color: #04aaff;
+  cursor: pointer;
+}
+
+.profile-btn-form-email {
+  cursor: default;
+  background-color: rgb(175, 170, 169);
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.profile-btn-form-update {
+  cursor: pointer;
+  background-color: #04aaff;
+}
+
+.profile-btn-form-update:hover {
+  background-color: #3658f0;
+}
+
+.profile-btn-form-update:active {
+  background-color: #0e067e;
+}
+
+.profile-btn-form-logout {
+  cursor: pointer;
+  background-color: tomato;
+}
+
+.profile-btn-form-logout:hover {
+  background-color: #df0a0a;
+}
+
+.profile-btn-form-logout:active {
+  background-color: #4e0202;
+}
+
+.profile-btn-form-cancel {
+  cursor: pointer;
+  background-color: tomato;
+}
+
+.profile-btn-form-cancel:hover {
+  background-color: #df0a0a;
+}
+
+.profile-btn-form-cancel:active {
+  background-color: #4e0202;
+}
+
+.profile-btn-form-logout-position {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.profile-update-toast_msg {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  padding: 11px;
+  min-width: 200px;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.profile-toast_msg {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  padding: 11px;
+  min-width: 200px;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid #000;
+  text-align: center;
+}
